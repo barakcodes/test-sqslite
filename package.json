@@ -1,0 +1,15 @@
+{
+  "name": "test-sqslite",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts",
+    "dev:worker": "bun run --hot src/worker.ts"
+  },
+  "dependencies": {
+    "@barakcodes/sqslite": "0.0.1",
+    "hono": "^4.5.10",
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
